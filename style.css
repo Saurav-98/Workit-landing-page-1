@@ -1,0 +1,46 @@
+:root {
+  /* Colors */
+  --primary-clr: #24053e;
+  --accent-clr: #44ffa1;
+  --primary-dark: #584d62;
+  --primary-light: #fcf8ff;
+  --white: #ffffff;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+/* Text Styles */
+
+/* Header */
+
+.header {
+  background-color: var(--primary-clr);
+
+  max-width: 144rem;
+  height: 73rem;
+
+  color: var(--white);
+}
+
+.top-bar {
+  height: 14rem;
+}
